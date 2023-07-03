@@ -3,3 +3,12 @@ white
 Primary
 Seconday
 */
+
+/* navbar. */
+nav{
+    min-height: 100px;
+}
+
+.imgLogo{
+    width: 100px;
+}

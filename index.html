@@ -4,18 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <header>
+            <header class="container">
                 <!-- navbar -->
-                <nav class="p-3 mb-2 bg-primary text-white">
-                    <h1>ciao</h1>
-
+                <nav class="navbar bg-primary d-flex justify-content-around">
+                    <!-- logo. -->
+                    <div class="d-flex align-items-center" >
+                        <img src="./img/spongebob.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top me-2">  
+                        <a class="navbar-brand text-white" href="#">Spongebob</a>
+                    </div>
+                    <!-- barra di ricerca. -->
+                    <div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Cerca il tuo personaggio preferito" aria-label="Search">
+                            <button type="button" class="btn btn-light">Cerca</button>
+                        </form>
+                    </div>
+                    <!-- link. -->
+                    <div>
+                        <a class="text-white me-2" href="#">Patrick</a>
+                        <a class="text-white me-2" href="#">Spongebob</a>
+                        <a class="text-white me-2" href="">Squiddi</a>
+                    </div>
                 </nav>
             </header>
+
+
+
+
             <main>
                 <section>
                     <!-- Jumbotron -->
