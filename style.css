@@ -3,6 +3,11 @@ white
 Primary
 Seconday
 */
+
+/* cards */
+.cardContainer{
+    height: 400px;
+}
 *{
     font-family: 'Slackey', cursive;
 }
