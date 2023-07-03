@@ -3,30 +3,6 @@ white
 Primary
 Seconday
 */
-.jumbotron {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-}
-
-.jumbotron img {
-  object-fit: cover;
-}
-
-.jumbotron .container {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-}
-.jumbotron h1 {
-  color: white;
-}
-
 * {
   font-family: "Slackey", cursive;
 }
