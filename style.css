@@ -26,3 +26,19 @@ Seconday
 .jumbotron h1 {
   color: white;
 }
+
+* {
+  font-family: "Slackey", cursive;
+}
+.carouselSize {
+  height: 400px;
+}
+
+/* navbar. */
+nav {
+  min-height: 100px;
+}
+
+.imgLogo {
+  width: 100px;
+}
