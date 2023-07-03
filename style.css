@@ -3,6 +3,12 @@ white
 Primary
 Seconday
 */
+*{
+    font-family: 'Slackey', cursive;
+}
+.carouselSize {
+    height: 400px;
+}
 
 /* navbar. */
 nav{
