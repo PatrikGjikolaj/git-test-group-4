@@ -3,3 +3,8 @@ white
 Primary
 Seconday
 */
+
+/* cards */
+.cardContainer{
+    height: 400px;
+}
